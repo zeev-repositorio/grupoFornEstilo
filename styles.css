@@ -217,20 +217,3 @@ th {
 
 
 
-/* Ocultar tabelas */
-.endereco {
-  background-color: #blue;
-}
-
-#analiseResultado {
-	display: none
-}
-
-#relatorio1 {
-	display: none;
-    text-align: right;
-}
-
-#relatorio2 {
-	display: none; 
-}
