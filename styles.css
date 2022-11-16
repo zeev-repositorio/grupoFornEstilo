@@ -1,0 +1,236 @@
+/* Estilo da logo */
+.logo {
+  padding-top: 10px;
+  border-width: 0px; 
+  border-style: solid; 
+  width: 50%;
+}
+
+/* Estilo do Título do Processo */
+.tituloProcesso { 
+    padding-top: 5%;
+    color: #FFFFFF;
+    font-family: var(--default-font);
+    font-size: 45px;
+    font-weight: 600;
+    grid-column: span 2;
+    order: 1;
+}
+
+.group {
+  text-align: center;
+}
+
+#dadosCliente, #enderecoCliente {
+  margin-left: 5vw;
+  justify-content: center;
+  position: relative;
+  width: 70vw;
+}
+
+/*  Estilo da Navbar */
+nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(#ff8c00, #F08000);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Estilo do Footer */
+footer {
+  width: 98%; 
+  height:100px;
+  position:absolute;
+  background-image: linear-gradient(#ffa500, #ff8c00);
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+}
+
+.logoP {
+   display: flex;
+   align-items: start;
+   order: -1;
+}
+
+.navSegundoP {
+  order: 2;
+}
+
+.maquinas {
+  top: 6vh;
+  height: auto;
+  width: 80%;
+  position: relative;
+}
+
+/* Estilo da Tag Strong */
+strong {
+    color: rgb(64, 72, 81);
+    font-weight: 700;
+ 	padding-left: 5px;
+}
+
+/* Estilo da célula da tabela */
+td {
+    color: rgb(64, 72, 81);
+    font-size: 13.3333px;
+    font-weight: 700;
+}
+
+/*  Estilo da tag Caption */
+caption {
+  color:#000000 ;
+  padding-left: 10%;
+}
+
+/*  Estilo da tag Span  */
+span {
+ text-align: center;
+ padding: auto;
+}
+
+/*  Estilo da tag Tbody */
+tbody {
+  width: 75%;
+}
+
+/* Estilo personalizado as tabelas de id #FrmExecute */
+#FrmExecute {
+	justify-content: center;
+    width: 60vw;
+    padding-left: 13vw;
+    padding-right: 1.5vw;
+    box-shadow: none;
+}
+
+
+/* Estilo da Tabela  */
+table {
+  	width: 75%;
+    margin-bottom: 2em;
+    border-spacing: 0pt;
+    border-radius: 10px;
+    border-collapse: separate;
+    padding-left: 5px;
+  	padding-right: 5px;
+    box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.38);
+  }
+
+/* Estilo do cabeçalho da tabela */
+th {
+   padding: 0.5pt;
+   padding-left: 5px;
+   padding-right: 5px;
+   border: 1px solid;
+   
+  }
+
+/* Estilo das bordas da tabela */
+  table tr:first-child th:first-child,
+  table tr:first-child td:first-child {
+  border-top-left-radius: 10px;
+}
+
+  table tr:first-child th:last-child,
+  table tr:first-child td:last-child {
+  border-top-right-radius: 10px;
+}
+
+  table tr:last-child th:first-child,
+  table tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+
+}
+
+  table tr:last-child th:last-child,
+  table tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
+
+@media screen and (max-width: 820px) {
+   nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: #4c71d5;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+  
+  /* Estilo da logo */
+  .logoP {
+   display: flex;
+   justify-content: center;
+   order: -1;
+}
+.logo {
+  padding-top: 10px;
+  border-width: 0px; 
+  border-style: solid; 
+  margin: 10px;
+  width: 50%;
+  height: 50%;
+}
+  /* Estilo do Título do Processo */
+.tituloProcesso { 
+    padding-top: 5%;
+    color: #FFFFFF;
+    font-family: var(--default-font);
+    font-size: 500%;
+    font-weight: 600;
+    width: auto;
+}
+  .maquinas {
+  display: none;
+}
+  .page {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+  }
+  
+  table {
+    width: 80vw;
+    margin-bottom: 2em;
+    border-spacing: 0pt;
+    border-radius: 10px;
+    border-collapse: separate;
+    box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.38);
+  }
+  #FrmExecute {
+     justify-content: center;
+      width: 80vw;
+      box-shadow: none;
+  }
+   footer {
+    width: 100%;
+  }
+  
+}
+
+
+
+/* Ocultar tabelas */
+.endereco {
+  background-color: #blue;
+}
+
+#analiseResultado {
+	display: none
+}
+
+#relatorio1 {
+	display: none;
+    text-align: right;
+}
+
+#relatorio2 {
+	display: none; 
+}
